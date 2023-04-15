@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Page</title>
+	<script src="login/signup.js"></script>
+    <link rel="stylesheet" href="login/styles.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="header" id="myHeader">
+        <nav>
+           <div class="menu-icon">
+              <span class="fas fa-bars"></span>
+           </div>
+           <div class="logo">
+              <img src="images/first-transformed.png" height="60px" alt="">
+           </div>
+           <div class="nav-items">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="category.html">Category</a></li>
+              <li><a href="product.html">Product</a></li>
+              <li><a href="deal.html">Deal</a></li>
+              <li><a href="contact.html">Contact</a></li>
+           </div>
+           <div class="search-icon">
+              <span class="fas fa-search"></span>
+           </div>
+           <div class="cancel-icon">
+              <span class="fas fa-times"></span>
+           </div>
+           <form action="#">
+              <input type="search" class="search-data" placeholder="Search" required>
+              <button type="submit" class="fas fa-search"></button>
+           </form>
+           <a class="btns" href="loginpage.html">Log In</a>
+           <a class="btns" href="signuppage.html">Sign Up</a>
+           </nav>
+        </div>
+	<h1>Signup</h1>
+	<form id="signup-form" action="#" method="POST">
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username"><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password"><br>
+
+		<label for="confirm_password">Confirm Password:</label>
+		<input type="password" id="confirm_password" name="confirm_password"><br>
+
+		<button type="submit" onclick="validate()">Signup</button>
+	</form>
+
+    
+</body>
+</html>
