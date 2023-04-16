@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 
 * {
-  
+
   margin: 0;
   padding: 0;
   outline: none;
@@ -11,15 +11,18 @@
 
 /*  */
 /* .btns{ */
-nav a.btns{
+nav a.btns {
+  text-decoration: none;
+  padding: 1px 1px;
   cursor: pointer;
-    margin: 0px 10px;
-    font-size: 1.5em;
-    color: white;
-    background-color: orangered;
-    border: 1px solid white;
-    border-radius: 7px;
+  margin: 0px 10px;
+  font-size: 1.5em;
+  color: white;
+  background-color: orangered;
+  border: 1px solid white;
+  border-radius: 7px;
 }
+
 /*  */
 /* Style the header */
 .header {
@@ -728,9 +731,11 @@ nav .search-icon {
   text-decoration: none;
   margin-left: 2px;
 }
-.footer .box-container .box .font{
+
+.footer .box-container .box .font {
   padding-left: 25%;
 }
+
 .footer .box-container .box .font a:hover {
   color: orangered;
 
