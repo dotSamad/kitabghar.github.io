@@ -37,8 +37,8 @@ body {
     width: 100%;
   }
   
-  button[type="submit"] {
-    background-color: #4CAF50;
+  .login button[type="submit"] {
+    background-color: orangered;
     border: none;
     border-radius: 3px;
     color: #fff;
@@ -50,8 +50,8 @@ body {
     width: 100%;
   }
   
-  button[type="submit"]:hover {
-    background-color: #3e8e41;
+  .login button[type="submit"]:hover {
+    background-color: orangered;
   }
   
   /* Signup Page Styles */
