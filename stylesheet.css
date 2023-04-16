@@ -10,19 +10,14 @@
 }
 
 /*  */
-/* .btns{ */
-nav a.btns {
+/* user*/
+a.user{
+  margin: 0;
+  padding: 1px 15px;
+  font-size: 30px;
+  color: orangered;
   text-decoration: none;
-  padding: 1px 1px;
-  cursor: pointer;
-  margin: 0px 10px;
-  font-size: 1.5em;
-  color: white;
-  background-color: orangered;
-  border: 1px solid white;
-  border-radius: 7px;
 }
-
 /*  */
 /* Style the header */
 .header {
@@ -169,7 +164,7 @@ nav .search-icon {
   cursor: pointer;
   display: none;
 }
-
+/*  */
 nav .menu-icon span,
 nav .cancel-icon,
 nav .search-icon {
