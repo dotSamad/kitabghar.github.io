@@ -61,7 +61,7 @@ input[type=submit]:hover {
   width: 50%;
   margin: auto;
   padding: 0 50px;
-  margin-top: 6px;
+  margin-top: 2px;
 }
 
 /* Clear floats after the columns */
@@ -98,9 +98,10 @@ input[type=submit]:hover {
 
 /* bottom container */
 .bottom-container {
+  padding: 0 0;
   text-align: center;
   background-color: black;
-  border-radius: 0px 0px 4px 4px;
+  /* border-radius: 0px 0px 4px 4px; */
 }
 
 /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
